@@ -124,3 +124,10 @@ As explained before, you can't run the app in the simulator.
 Attach a device, and in Xcode, Run, but without building, *Janus-iOS* (_Product_ > _Perform action_ > _Run Without building_ or _^⌘R_) (do not "Build and run", as it will recompile and remove OSX binary part).
 
 ![screenshots](Screenshots/screenshot01.png)
+
+
+## Further research
+
+
+- The [app store guidelines](https://developer.apple.com/appstore/resources/approval/guidelines.html) does not mention anything about having one app behaving completly differently depending on the architecture it is run on.
+- Try to make a complete .app multiversally compatible (not just only in OSX terminal)
